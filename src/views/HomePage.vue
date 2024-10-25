@@ -19,7 +19,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, onIonViewWillEnte
 import { ref } from 'vue';
 import { InAppBrowser } from '@awesome-cordova-plugins/in-app-browser';
 import { App } from '@capacitor/app';
-const link = ref("https://academe.schoolmanagementsystem.space/demo.college/");
+const link = ref("https://clhcc.vercel.app/");
 
 onIonViewWillEnter(async () => {
   const options = 'location=no,toolbar=no,hidden=no, hidenavigationbuttons=yes, zoom=no, presentationstyle=fullscreen, hideurlbar=yes, pullToRefresh=no';
